@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarawak Flood Prediction System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Sarawak Flood Prediction System">
+            <span>Sarawak Flood Prediction</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#predictions">Predictions</a>
+            <a href="#map">Flood Map</a>
+            <a href="#alerts">Alerts</a>
+            <a href="#community">Community</a>
+            <a href="#resources">Resources</a>
+        </div>
+        <div class="auth-buttons">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Stay Safe, Stay Informed</h1>
+            <p>Real-time flood predictions and alerts for Sarawak communities</p>
+            <div class="cta-buttons">
+                <button class="primary-btn">View Current Alerts</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/hero-image.jpg" alt="Flood Prediction System">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Hyper-Localized Predictions</h3>
+                <p>AI-powered flood predictions at street level</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-satellite-dish"></i>
+                <h3>Real-Time Monitoring</h3>
+                <p>Live flood simulation and impact visualization</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-route"></i>
+                <h3>Smart Evacuation</h3>
+                <p>AI-optimized evacuation routes</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-bell"></i>
+                <h3>Multi-Channel Alerts</h3>
+                <p>Instant notifications via multiple platforms</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="map-section">
+        <h2>Live Flood Map</h2>
+        <div class="map-container">
+            <div id="flood-map"></div>
+            <div class="map-controls">
+                <button class="map-btn"><i class="fas fa-layer-group"></i> Layers</button>
+                <button class="map-btn"><i class="fas fa-search-location"></i> Search</button>
+                <button class="map-btn"><i class="fas fa-ruler"></i> Measure</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alerts Section -->
+    <section id="alerts" class="alerts-section">
+        <h2>Current Alerts</h2>
+        <div class="alert-container">
+            <div class="alert-card">
+                <div class="alert-header">
+                    <span class="alert-level high">High Risk</span>
+                    <span class="alert-time">2 hours ago</span>
+                </div>
+                <h3>Kuching City Center</h3>
+                <p>Expected flood level: 1.5m</p>
+                <button class="alert-btn">View Details</button>
+            </div>
+            <!-- More alert cards will be added dynamically -->
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community-section">
+        <h2>Community Hub</h2>
+        <div class="community-grid">
+            <div class="community-card">
+                <i class="fas fa-users"></i>
+                <h3>Report Flooding</h3>
+                <p>Share real-time updates from your location</p>
+                <button class="community-btn">Submit Report</button>
+            </div>
+            <div class="community-card">
+                <i class="fas fa-hands-helping"></i>
+                <h3>Request Help</h3>
+                <p>Get assistance during emergencies</p>
+                <button class="community-btn">Request Now</button>
+            </div>
+            <div class="community-card">
+                <i class="fas fa-comments"></i>
+                <h3>Community Forum</h3>
+                <p>Connect with others and share experiences</p>
+                <button class="community-btn">Join Discussion</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Sarawak Flood Prediction System is dedicated to keeping communities safe through advanced AI technology and real-time monitoring.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#predictions">Predictions</a></li>
+                    <li><a href="#map">Flood Map</a></li>
+                    <li><a href="#alerts">Alerts</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: support@sarawakflood.com</p>
+                <p>Phone: +60 123 456 789</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sarawak Flood Prediction System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
